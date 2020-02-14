@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: go-hpa-app
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: go-hpa-app
