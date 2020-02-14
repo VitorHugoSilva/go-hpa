@@ -4,5 +4,7 @@ metadata:
   name: go-hpa-app-service
 spec:
   type: LoadBalancer
+  ports:
+    - port: 8000
   selector:
     app: go-hpa-app
