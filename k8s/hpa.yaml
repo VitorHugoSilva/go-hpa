@@ -1,7 +1,7 @@
 apiVersion: autoscaling/v1
 kind: HorizontalPodAutoscaler
 metadata:
-  name: go-hpa-app
+  name: hpa-app
 spec:
   minReplicas: 1
   maxReplicas: 6
